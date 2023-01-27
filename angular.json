@@ -25,9 +25,15 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/all.css",
+              "src/assets/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/all.js",
+              "src/assets/js/bootstrap.bundle.js",
+              "node_modules/mammoth/mammoth.browser.min.js"
+            ]
           },
           "configurations": {
             "production": {
