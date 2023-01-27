@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+table{
+  margin: 15px 0px 15px 0px;
+  /* centrar tabla */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+td{
+  font-size: 18px;
+  /*alineación de texto*/
+  text-align: center;
+  border: 1px solid #fff !important;
+  padding: 10px;
+}
+
+ngx-doc-viewer{
+  /* centrar Elementos con flex; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* li{
+  border: 1px solid #000 !important;
+  margin: 15px 0px 15px 0px;
+  padding: 5px;
+} */
